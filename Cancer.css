@@ -1,0 +1,88 @@
+body{
+    color: black;
+}
+header{
+  padding: 30px;
+  background-color: rgb(60 90 40);
+  text-transform: capitalize;
+  color: white;
+}
+.start{
+  padding: 20px;
+  margin: 5px;
+  color: blue;
+  border: 3px solid green;
+  background-color: azure;
+}
+img {
+  width: 357px;
+  height: auto;
+  margin: 5px;
+}
+footer{
+  background-color: black;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+aside{
+  background-color: lightgray;
+  padding: 20px;
+  display: inline-block;
+  width: 316px;
+  margin: 5px;
+}
+aside p{
+  color: blue;
+  padding: 20px;
+  text-align: center;
+}
+aside a{
+  text-decoration: none;
+  background-color: azure;
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  color: blue;
+}
+nav{
+  background-color: lightgray;
+  width: fit-content;
+  text-transform: capitalize;
+}
+nav a{
+  text-decoration: none;
+  background-color: azure;
+  display: inline-block;
+  padding: 10px;
+  color: blue;
+  margin: 5px 6px 5px 6px;
+}
+header,
+main,
+nav,
+aside{
+  margin-bottom: 20px;
+}
+.Lung section,
+.liver section,
+.breast section{
+  padding: 30px;
+  background-color: azure;
+  border: 5px solid green;
+  margin: 5px;
+  color: blue;
+}
+h2 {
+  padding:20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: fit-content;
+  color: blue;
+  background-color: azure;
+}
+h1,
+h2,
+h3{
+  width: fit-content;
+}

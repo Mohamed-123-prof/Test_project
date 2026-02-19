@@ -1,0 +1,79 @@
+body{
+  color: black;
+}
+header{
+  padding: 30px;
+  background-color: rgb(60 90 40);
+  text-transform: capitalize;
+  color: white;
+}
+.start{
+  padding: 20px;
+  margin: 5px;
+  color: green;
+  border: 3px solid rgb(100 255 60);
+}
+img{
+  width: 310px;
+  height: auto;
+}
+.obese section{
+  padding: 30px;
+  background-color: azure;
+  border: 5px solid green;
+  margin: 5px;
+  color: blue;
+}
+h2{
+  padding:20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: fit-content;
+  color: blue;
+  background-color: azure;
+}
+footer{
+  background-color: black;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+aside{
+  background-color: lightgray;
+  padding: 20px;
+  display: inline-block;
+  width: 316px;
+  margin: 5px;
+}
+aside p{
+  color: blue;
+  padding: 20px;
+  text-align: center;
+}
+aside a{
+  text-decoration: none;
+  background-color: azure;
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  color: blue;
+}
+nav{
+  background-color: lightgray;
+  width: fit-content;
+  text-transform: capitalize;
+}
+nav a{
+  text-decoration: none;
+  background-color: azure;
+  display: inline-block;
+  padding: 10px;
+  color: blue;
+  margin: 5px 6px 5px 6px;
+}
+header,
+.obese,
+nav,
+aside{
+  margin-bottom: 20px;
+}
