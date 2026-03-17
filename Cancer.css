@@ -1,5 +1,6 @@
 body{
     color: black;
+    font-family: "open sans", sans-serif;
 }
 header{
   padding: 30px;
@@ -10,9 +11,10 @@ header{
 .start{
   padding: 20px;
   margin: 5px;
-  color: blue;
+  color: black;
   border: 3px solid green;
   background-color: azure;
+  line-height: 1.6;
 }
 img {
   width: 357px;
@@ -33,9 +35,10 @@ aside{
   margin: 5px;
 }
 aside p{
-  color: blue;
+  color: black;
   padding: 20px;
   text-align: center;
+  text-decoration: underline;
 }
 aside a{
   text-decoration: none;
@@ -56,7 +59,7 @@ nav a{
   display: inline-block;
   padding: 10px;
   color: blue;
-  margin: 5px 6px 5px 6px;
+  margin: 4px;
 }
 header,
 main,
@@ -71,7 +74,8 @@ aside{
   background-color: azure;
   border: 5px solid green;
   margin: 5px;
-  color: blue;
+  color: black;
+  line-height: 1.6;
 }
 h2 {
   padding:20px;
@@ -85,4 +89,5 @@ h1,
 h2,
 h3{
   width: fit-content;
+  font-family: "oswald", sans-serif;
 }

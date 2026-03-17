@@ -1,5 +1,6 @@
 body{
   color: black;
+  font-family: "open sans", sans-serif;
 }
 header{
   padding: 30px;
@@ -18,6 +19,7 @@ header{
   padding: 30px;
   margin: 5px;
   border: 5px solid green;
+  line-height: 1.6;
 }
 .type1 section,
 .type1 h2{
@@ -83,11 +85,16 @@ nav a{
   display: inline-block;
   padding: 10px;
   color: blue;
-  margin: 5px 18px 5px 18px;
+  margin: 5px 18px 5px 15px;
 }
 header,
 main,
 nav,
 aside{
   margin-bottom: 20px;
+}
+h1,
+h2,
+h3{
+  font-family: "oswald", sans-serif;
 }
